@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 170px; /*20 top and bottom 170 left and right*/
+}
+
+.navbar-menu{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    align-items: center;
+    font-size: 20px;
+}
+.logo{
+    width: 120px;
+}
