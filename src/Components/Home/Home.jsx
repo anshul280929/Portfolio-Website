@@ -9,8 +9,8 @@ const Home = () => {
     return (
         <div className='home'>
             <div className="home-left">
-                <h1><span>I'm Anshul Bhaskar</span></h1>
-                <h1>Final Year Computer Science Student</h1>
+                
+                <h1><span>I'm Anshul Bhaskar </span>Final Year Computer Science Student</h1>
                 <p>
                     I am passionate about building full stack applications and exploring AI/ML and Cloud Computing.
                 </p>    
