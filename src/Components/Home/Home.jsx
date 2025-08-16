@@ -1,8 +1,6 @@
 import React from 'react'
 import './Home.css'
-import github from '../../assets/github.png'
-import linkedin from '../../assets/linkedin.png'
-import gmail from '../../assets/gmail.png'
+
 import profile from '../../assets/profile.jpg'
 
 const Home = () => {
@@ -20,13 +18,8 @@ const Home = () => {
                     <button className="resume">My Resume</button>
                 </div>
 
-                <div className='socials'>
-                    <img src={github} alt="github" className='github' />
-                    <img src={linkedin} alt="linkedin" className='linkedin' />
-                    <img src={gmail} alt="gmail" className='gmail' />
-                </div>
+                
             </div>
-
             {/* Right: profile image */}
             <div className="home-right">
                 <img src={profile} alt="Anshul" className="home-image" />

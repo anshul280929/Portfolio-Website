@@ -2,8 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 60px;
     gap: 50px;
+    margin-bottom: 10px;
 }
 
 .home-left {
@@ -20,7 +21,7 @@
 }
 
 .home-left h1 span {
-    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background: linear-gradient(270deg, #007bff 10%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -47,6 +48,7 @@
 
 button {
     padding: 10px 20px;
+    margin:20px 0px;
     border-radius: 30px;
     font-size: 18px;
     cursor: pointer;
@@ -54,40 +56,15 @@ button {
 }
 
 .button .connect {
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background: linear-gradient(264deg, #007bff -5.09%, #B415FF 106.28%);
     color: white;
     border: none;
 }
 
 .button .resume {
-    border: 2px solid #DF8908;
+    border: 2px solid #B415FF;
     background: transparent;
     color: #fff;
-}
-
-.socials {
-    display: flex;
-    gap: 35px;
-    margin-top: 10px;
-    padding-left: 50px;
-    cursor: pointer;
-}
-
-.github {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.linkedin {
-    width: 40px;
-    height: 40px;
-}
-
-.gmail {
-    width: 40px;
-    height: 40px;
-
 }
 
 .home-right {
@@ -97,8 +74,39 @@ button {
 }
 
 .home-image {
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     object-fit: cover;
 }
+.about-boxes {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* allows stacking on small screens */
+}
+
+.about-box {
+    flex: 1;
+    background: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 350px; /* limits width on larger screens */
+    min-width: 250px; /* ensures responsiveness */
+}
+
+.about-box h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-box p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #ccc;
+}
+
